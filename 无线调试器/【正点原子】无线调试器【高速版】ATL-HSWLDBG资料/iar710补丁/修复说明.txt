@@ -1,0 +1,3 @@
+把本目录下的"CMSIS_DAP.dll"放到
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\bin"
+"C:\Program Files (x86)\IAR Systems"是对应的安装路径

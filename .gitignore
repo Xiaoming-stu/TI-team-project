@@ -1,0 +1,38 @@
+# Local upload workspace
+/.github-upload-staging/
+
+# Large third-party installers (download from the official vendors instead)
+/MDK543a.exe
+/mspm0_sdk_2_10_00_04.exe
+
+# Redundant top-level archives; the extracted module folders are tracked
+/无线调试器.zip
+/步进电机.zip
+/灰度传感器.zip
+/编码器电机.zip
+
+# Already present in the GitHub repository
+/MSPM0G3507/
+/云台资料2026.04.08/
+/灰度传感器/
+/编码器电机/
+/8路数字STM32程序.zip
+/无线调试器/软件与驱动资料/output/pdf/无线DAP调试器_Keil5使用指南_STM32F103RCT6_MSPM0G3507.pdf
+
+# Redundant wireless-debugger copies and generated working files
+/无线调试器/【正点原子】无线调试器【高速版】ATL-HSWLDBG资料.zip
+/无线调试器/【正点原子】无线调试器【高速版】ATL-HSWLDBG/
+/无线调试器/软件与驱动资料/tmp/
+
+# Local agent metadata and incomplete downloads
+**/.agents/
+**/.codex/
+**/*.crdownload
+**/*.mp4
+
+# Regenerable Keil build intermediates
+**/*.crf
+**/*.o
+**/*.d
+**/*.dep
+**/*.lnp
